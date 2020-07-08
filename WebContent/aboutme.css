@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: block;
+    background-color: rgba(1, 1, 1, 0.1);
+}
+#wrapper{
+    max-width: 68rem;
+    margin: 0 auto;
+}
+#nav{
+    overflow: hidden;
+    margin-top: 2rem;
+    background-color: white;
+    margin-bottom: 0.4rem;
+    padding: 2rem;
+}
+#nav ul{
+    float: right;
+}
+#nav li{
+    float: left;
+    list-style: none;
+    padding: 1rem 2rem;
+    margin: 0rem 0.2rem;
+    box-shadow: 3px 3px 3px gray;
+    color: blue;
+    background-color: rgb(140, 140, 236);
+}
+#nav li a{
+    color: blue;
+}
+#nav button{
+    background: inherit;
+}
+#section{
+    background-color: white;
+    clear: both;
+    padding: 2rem;
+    margin-bottom: 0.4rem;
+}
+#section .article{
+    margin: 2rem 0rem;
+    height: 6rem;
+}
+#footer{
+    text-align: center;
+    color: gray;
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
